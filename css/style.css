@@ -40,24 +40,34 @@
     background-color: white;
 }
 
+.color-black {
+    color: black;
+}
+
 /* Specs */
 
 ul {
     display: none;
     list-style-type: none;
+    color: inherit;
+    align-items: center;
 }
 
 li {
     display: flex;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .btn {
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 /* Responsiveness */
