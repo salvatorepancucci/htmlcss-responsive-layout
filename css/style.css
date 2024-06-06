@@ -21,6 +21,13 @@ header {
     z-index: 1;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 20px;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -32,6 +39,26 @@ header {
     width: 50%;
     color: white;
     padding: 15px;
+}
+
+.col-66 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0 auto;
+    height: 140px;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+}
+
+.col-33 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0 auto;
+    height: 70px;
+    background-color: #B5DDFF;
+    border-radius: 20px;
 }
 
 /* Utility */
@@ -46,6 +73,10 @@ header {
 
 .color-black {
     color: black;
+}
+
+.margin-top-70 {
+    margin-top: 70px;
 }
 
 /* Specs */
