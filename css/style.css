@@ -44,6 +44,7 @@ header {
     width: 100%;
     margin: 15px 0 auto;
     border-radius: 20px;
+    position: relative;
 }
 
 .content {
@@ -99,6 +100,14 @@ header {
 
 .padding-horizontal {
     padding: 10px 75px;
+}
+
+.padding-horizontal-2 {
+    padding: 0px 0px;
+}
+
+.padding-horizontal-3 {
+    padding: 10px 10px;
 }
 
 .padding-20 {
@@ -181,7 +190,11 @@ header {
     float: left;
 }
 
-/* Specs */
+.width-160 {
+    width: 160px;
+}
+
+/* Specs & Elements */
 
 ul {
     display: none;
@@ -227,6 +240,22 @@ a {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.testimonial-rel {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+}
+
+.quotes {
+    position: absolute;
+    color: #9792E4;
+    left: 160px;
+    top: 50px;
 }
 
 h1 {
