@@ -92,6 +92,24 @@ header {
     position: relative;
 }
 
+.col-l {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0 auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+.col-f {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0 auto;
+    border-radius: 20px;
+    position: relative;
+}
+
 .content {
     text-align: center;
     margin: 20px;
