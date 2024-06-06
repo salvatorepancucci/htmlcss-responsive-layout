@@ -43,7 +43,6 @@ header {
     flex-direction: column;
     width: 100%;
     margin: 15px 0 auto;
-    background-color: #B5DDFF;
     border-radius: 20px;
 }
 
@@ -70,8 +69,12 @@ header {
     color: #5A6E7F;
 }
 
-.margin-top-70 {
-    margin-top: 70px;
+.margin-80 {
+    margin: 80px 0;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
 }
 
 .margin-bottom-30 {
@@ -90,6 +93,10 @@ header {
     padding: 10px 75px;
 }
 
+.padding-20 {
+    padding: 20px;
+}
+
 .padding-15 {
     padding: 15px;
 }
@@ -106,6 +113,10 @@ header {
     background-color: #9792E4;
 }
 
+.bg-azul {
+    background-color: #B5DDFF;
+}
+
 .bg-lightblue {
     background-color: #0084FD;
 }
@@ -116,6 +127,18 @@ header {
 
 .text-align-left {
     text-align: left;
+}
+
+.font-size-30 {
+    font-size: 30px;
+}
+
+.border-radius-100 {
+    border-radius: 100px;
+}
+
+.border-radius-60 {
+    border-radius: 60px;
 }
 
 /* Specs */
@@ -147,6 +170,14 @@ a {
 }
 
 .phone {
+    width: 300px;
+}
+
+.planning-1 {
+    width: 300px;
+}
+
+.planning-2 {
     width: 300px;
 }
 
