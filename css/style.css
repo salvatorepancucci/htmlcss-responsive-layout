@@ -33,12 +33,21 @@ header {
     flex-wrap: wrap;
 }
 
-.col-50 {
+.col-h {
     display: flex;
     width: 50%;
 }
 
-.col {
+.col-33 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0 auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+.col-66 {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -49,6 +58,11 @@ header {
 
 .content {
     text-align: center;
+    margin: 20px;
+}
+
+.content-66 {
+    text-align: left;
     margin: 20px;
 }
 
@@ -307,7 +321,29 @@ svg {
 
 /* Tablet */
 @media screen and (min-width: 768px) { Tablet
+    .container {
+        flex-direction: row;
+    }
 
+    .col-33 {
+        width: calc(100% / 3 - 20px);
+        margin: 10px 10px;
+    }
+
+    .col-66 {
+        width: calc(100% / 3 * 2 - 20px);
+        margin: 10px 10px;
+    }
+
+    .content {
+        margin: 10px;
+    }
+
+    p {
+        font-size: 12px;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
 }
 
 /* Desktop */
