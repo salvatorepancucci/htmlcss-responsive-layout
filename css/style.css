@@ -73,6 +73,10 @@ header {
     margin: 80px 0;
 }
 
+.margin-top-20 {
+    margin-top: 20px;
+}
+
 .margin-top-30 {
     margin-top: 30px;
 }
@@ -125,6 +129,10 @@ header {
     color: #0084FD;
 }
 
+.color-violet {
+    color: #9792E4;
+}
+
 .text-align-left {
     text-align: left;
 }
@@ -133,12 +141,20 @@ header {
     font-size: 30px;
 }
 
+.font-size-20 {
+    font-size: 20px;
+}
+
 .border-radius-100 {
     border-radius: 100px;
 }
 
 .border-radius-60 {
     border-radius: 60px;
+}
+
+.line-height-1 {
+    line-height: 1.5;
 }
 
 /* Specs */
@@ -179,6 +195,14 @@ a {
 
 .planning-2 {
     width: 300px;
+}
+
+.testimonial {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 h1 {
