@@ -408,6 +408,11 @@ svg {
         margin: 10px 10px;
     }
 
+    .col-x {
+        width: calc(100% / 2 - 20px);
+        margin: 10px 10px;
+    }
+
     .content {
         margin: 10px;
     }
