@@ -110,6 +110,10 @@ header {
     padding: 10px 10px;
 }
 
+.padding-horizontal-4 {
+    padding: 20px 80px;
+}
+
 .padding-20 {
     padding: 20px;
 }
@@ -146,6 +150,10 @@ header {
     color: #9792E4;
 }
 
+.color-orange {
+    color: #FDC15F;
+}
+
 .text-align-left {
     text-align: left;
 }
@@ -168,6 +176,14 @@ header {
 
 .font-size-20 {
     font-size: 20px;
+}
+
+.font-size-15 {
+    font-size: 15px;
+}
+
+.font-size-12 {
+    font-size: 12px;
 }
 
 .border-radius-100 {
@@ -273,6 +289,10 @@ svg {
     fill: #0084FD;
     width: 70px;
     margin: 30px;
+}
+
+.hover:hover {
+    text-decoration: underline;
 }
 
 /* Responsiveness */
