@@ -85,6 +85,10 @@ header {
     margin-bottom: 30px;
 }
 
+.margin-left-50 {
+    margin-left: 50px;
+}
+
 .align-items-center {
     align-items: center;
 }
@@ -137,8 +141,20 @@ header {
     text-align: left;
 }
 
+.text-align-center {
+    text-align: center;
+}
+
+.font-size-50 {
+    font-size: 50px;
+}
+
 .font-size-30 {
     font-size: 30px;
+}
+
+.font-size-25 {
+    font-size: 25px;
 }
 
 .font-size-20 {
@@ -153,8 +169,16 @@ header {
     border-radius: 60px;
 }
 
+.border-radius-20 {
+    border-radius: 20px;
+}
+
 .line-height-1 {
     line-height: 1.5;
+}
+
+.float-left {
+    float: left;
 }
 
 /* Specs */
