@@ -74,6 +74,15 @@ header {
     position: relative;
 }
 
+.col-c {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0 auto;
+    border-radius: 20px;
+    position: relative;
+}
+
 .content {
     text-align: center;
     margin: 20px;
@@ -341,6 +350,10 @@ svg {
     margin: 30px;
 }
 
+.row > .content {
+    width: 100%;
+}
+
 .hover:hover {
     text-decoration: underline;
 }
@@ -360,6 +373,11 @@ svg {
 
     .col-66 {
         width: calc(100% / 3 * 2 - 20px);
+        margin: 10px 10px;
+    }
+
+    .col-c {
+        width: calc(100% / 2 - 20px);
         margin: 10px 10px;
     }
 
@@ -400,6 +418,10 @@ svg {
 
     .content br {
         display: none;
+    }
+
+    .content > button {
+        margin: 0;
     }
 }
 
