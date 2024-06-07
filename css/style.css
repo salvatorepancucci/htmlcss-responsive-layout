@@ -393,9 +393,11 @@ p {
     padding: 0 55px;
 }
 
-svg {
-    fill: #0084FD;
-    width: 70px;
+.fa-file-code,
+.fa-compass-drafting,
+.fa-laptop-code,
+.fa-bullhorn {
+    color: #0084FD;
     margin: 30px;
 }
 
