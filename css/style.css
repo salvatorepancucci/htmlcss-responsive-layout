@@ -502,6 +502,11 @@ svg {
         height: 480px;
     }
 
+    .col-c {
+        width: calc(100% / 3 - 20px);
+        margin: 10px 10px;
+    }
+
     .content-50 {
         text-align: left;
     }
