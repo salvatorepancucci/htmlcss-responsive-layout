@@ -101,6 +101,15 @@ header {
     position: relative;
 }
 
+.col-x-2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 15px 0 auto;
+    border-radius: 20px;
+    position: relative;
+}
+
 .col-l {
     display: flex;
     flex-direction: column;
@@ -426,6 +435,10 @@ svg {
         margin: 10px 10px;
     }
 
+    .col-x-2 {
+        margin-left: 100px;
+    }
+
     .content {
         margin: 10px;
     }
@@ -505,6 +518,15 @@ svg {
     .col-c {
         width: calc(100% / 3 - 20px);
         margin: 10px 10px;
+    }
+
+    .col-x {
+        width: 60%;
+        margin-right: 40px;
+    }
+    
+    .col-x-2 {
+        width: 20%;
     }
 
     .content-50 {
