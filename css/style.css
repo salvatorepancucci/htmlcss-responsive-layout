@@ -120,6 +120,10 @@ header {
     margin: 20px;
 }
 
+.content-66-desktop {
+    text-align: center;
+}
+
 .content-50 {
     text-align: center;
     margin: 20px;
@@ -465,5 +469,9 @@ svg {
     
     ul {
         display: flex;
+    }
+
+    .col-66 {
+        flex-direction: row;
     }
 }
