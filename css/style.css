@@ -506,6 +506,12 @@ svg {
         text-align: left;
     }
 
+    .content-100 p {
+        max-width: 850px;
+        text-align: left;
+        margin: auto;
+    }
+
     .planning-1 {
         width: 300px;
         margin-bottom: 50px;
